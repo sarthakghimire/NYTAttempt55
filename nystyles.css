@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#topButton button {
+  background-color: rgb(83, 83, 147);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+#topButton button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+hr.doubleLine {
+  border: double black;
+}
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.gameImage {
+  height: 100px;
+  width: 100px;
+}
+ul {
+  list-style: none;
+}
+.fcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#leftSide {
+  width: 70%;
+  border-right: 2px solid grey;
+}
+#rightSide {
+  width: 30%;
+}
+#leftleft {
+  width: 50%;
+}
+#leftright {
+  width: 50%;
+}
+#BL {
+  width: 50%;
+}
+#BR {
+  width: 50%;
+}
+#bottomRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
