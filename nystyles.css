@@ -31,10 +31,12 @@ body {
 ul {
   list-style: none;
 }
-.fcontainer {
+.fcontainer,
+#a2 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  /* flex-direction: column; */
 }
 #leftSide {
   width: 70%;
@@ -64,4 +66,15 @@ ul {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+}
+#lastLine {
+  font-size: small;
+}
+#lastLine a {
+  color: gray;
+}
+#BLI,
+#BRT {
+  padding-left: 5px;
+  padding-right: 5px;
 }
